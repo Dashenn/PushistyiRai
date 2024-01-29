@@ -1,0 +1,486 @@
+* {
+	margin: 0;
+	padding: 0;
+	max-width: 1920px;
+
+
+}
+
+.container {
+	width: 1920px;
+	margin: 0;
+}
+.header {
+	padding: 0;
+	width: 1920px;
+
+}
+.header .container {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo img {
+	vertical-align: bottom;
+	height: 70px;
+
+}
+.menu {
+	margin-left: 350px;
+	margin-right: 20px;
+
+}
+.menu-list {
+	list-style: none;
+	display: flex;
+}
+.menu-item {
+	margin-right: 90px;
+}
+.menu-item a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #18A0FB;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: italic;
+}
+.menu-item a:hover {
+	border-radius: 20px;
+	background: #E8E8E8;
+}
+
+.banner {
+	background-image: url("../images/fon.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	overflow: hidden;
+	width: 1920px;
+
+
+}
+
+.title-banner {
+	margin-top: 70px;
+	margin-left: 524px;
+	padding: 20px 0;
+}
+.title-element {
+	color: #000;
+
+	text-align: center;
+	font-family: Poppins;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+	width: 908px;
+	background:rgba(255, 255, 255, 0.30) ;
+	padding: 0;
+}
+
+.action {
+	padding: 0;
+	margin-top: 422px;
+	margin-left: 701px;
+}
+
+.text-element {
+	color: #FFF;
+
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+	background: rgba(35, 35, 35, 0.50);
+	width: 518px;
+}
+.button-baner {
+	width: 169.032px;
+	height: 55.883px;
+	background: #18A0FB;
+	color: white;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin-top: 35px;
+	margin-left: 174px;
+	margin-right: 174px;
+	border: none;
+	border-radius: 6px;
+	margin-bottom: 160px;
+	cursor: pointer;
+}
+.brends {
+	width: 1920px;
+}
+.brends-1 {
+	display: grid;
+	grid-template-columns: repeat(5, 250px);
+	gap: 10px;
+	margin: 50px 260px;
+	justify-content: center;
+
+}
+.brends-svg2 {
+	float: right;
+	margin-top: 100px;
+	margin-right: 200px;
+}
+.brends-svg1 {
+	float: left;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+.title {
+	color: #000;
+
+	text-align: center;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 50px;
+	width: 846px;
+	margin-left:  536px;
+	padding-top: 40px;
+
+}
+.delivery {
+	background: #85CEFF;
+	width: 1920px;
+}
+.delivery-items {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+	padding-bottom: 60px;
+}
+.delivery-item {
+
+}
+
+.delivery-item-title {
+	color: #000;
+
+	font-family: Montserrat;
+	font-size: 33px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 30px;
+}
+.delivery-item-text {
+	width: 375px;
+	color: #000;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 15px;
+
+}
+.delivery-svg {
+	float: left;
+	margin-top: 30px;
+}
+.banner2 {
+	width: 1920px;
+}
+.clothes {
+
+	width: 1920px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 100px;
+
+
+
+}
+
+.clothes-info {
+
+	display: flex;
+	flex-direction: column;
+	margin-top: -20px;
+
+
+
+
+
+}
+.photo1 {
+	height: 900px;
+	margin-top: 30px;
+	margin-left: 70px;
+
+
+
+
+}
+
+.clothes-title {
+
+	margin-top: 50px;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 50px;
+	margin-right: 100px;
+
+}
+.clothes-text {
+	width: 885px;
+	color: #000;
+	text-align: justify;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+.clothes-products {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 120px;
+	margin-right: 60px;
+
+}
+.clothes-product-text {
+	width: 208px;
+	height: 60px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.action-title {
+	font-family: Montserrat;
+	font-size: 33px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+	margin-top: 90px;
+	margin-left: 120px;
+}
+.action-button {
+	width: 218px;
+	height: 61px;
+	flex-shrink: 0;
+	border-radius: 6px;
+	background:#18A0FB;
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border: none;
+	margin-top: 40px;
+	margin-left: 350px;
+	cursor: pointer;
+}
+.food {
+	width: 1920px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+}
+.photo2 {
+	height: 900px;
+	margin-top: 30px;
+	margin-right: 70px;
+}
+.food-title {
+	margin-left: 80px;
+	margin-top: 30px;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 50px;
+}
+.food-text {
+	width: 885px;
+	color: #000;
+	text-align: justify;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.food-products {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.food-product-text {
+	width: 208px;
+	height: 60px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.food .action-title {
+	margin-left: 200px;
+}
+.food-action .action-button {
+	margin-left: 400px;
+}
+.we {
+	background: #85CEFF;
+	width: 1920px;
+	padding-top: 20px;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.we-points {
+	margin-top: 150px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+}
+.we-point {
+	margin-bottom: 85px;
+}
+.we-svg {
+	float: left;
+	margin-top: 10px;
+}
+.we-point-text {
+	float: right;
+	font-family: Montserrat;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	width: 663px;
+	margin-left: 50px;
+}
+
+.photo3 {
+	float: right;
+	width: 800px;
+	margin-top: 70px;
+	margin-right: 100px;
+}
+.connection {
+	width: 1920px;
+
+}
+.connection-title {
+	float: left;
+	font-family: Montserrat;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 50px;
+	margin: 40px 180px;
+}
+.connection.action-button {
+	float: right;
+	margin: 40px 280px;
+}
+.footer {
+	background: #A6A4A4;
+	width: 1920px;
+	padding-bottom: 32px;
+	padding-top: 15px;
+	margin-top: 40px;
+}
+
+
+.footer-menu-list {
+	list-style: none;
+	display: flex;
+	justify-content:left;
+	margin-top: 32px;
+	margin-left: 500px;
+}
+.footer-menu-item {
+	margin-left: 50px;
+}
+.footer a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #FFF;
+
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 30px;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.follow {
+	float: right;
+	margin-top: -32px;
+	margin-right: 100px;
+	display: flex;
+
+}
+.follow-text {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 5px 15px
+}
+.footer svg {
+	margin-right: 20px;
+}
+.footer img {
+	width: 200px;
+	margin-left: 30px;
+	float: left;
+	margin-top: -15px;
+}
+.decoration {
+	width: 1360px;
+	height: 1px;
+	background: rgba(0, 0, 0, 0.50);
+	margin-left: 280px;
+	margin-top: 40px;
+
+}
+.footer-info {
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 40px;
+	margin-right: 300px;
+}
